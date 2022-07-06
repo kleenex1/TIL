@@ -33,7 +33,7 @@
 
 # Git Push & Pull 
   > 로컬에서 Github라는 원격 저장소에 보내려면 remote 설정을 먼저 해줘야 한다.
-  > git remote add origin[^1] Github_Repository_Url </br>
+  > git remote add origin[^1] Github_Repository_Url
     [^1]: 최초로 remote 할때 origin이라는 이름을 쓰는것이 관례
   
   1. Git Push

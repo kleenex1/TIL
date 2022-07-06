@@ -33,15 +33,15 @@
 
 # Git Push & Pull 
   > 로컬에서 Github라는 원격 저장소에 보내려면 remote 설정을 먼저 해줘야 한다.
-  > git remote add origin[^1] Github_Repository_Url
+  > git remote add origin[^1] Github_Repository_Url </br>
     [^1]: 최초로 remote 할때 origin이라는 이름을 쓰는것이 관례
   
   1. Git Push
-  ''' $ git push <원격저장소이름> <브랜치이름> '''
+  ```$ git push <원격저장소이름> <브랜치이름>```
   2. Git Pull
-  ''' $ git pull <원격저장소이름> <브랜치이름> '''
+  ```$ git pull <원격저장소이름> <브랜치이름>```
   3. Git Clone(상대방 원격저장소를 받아보고 싶을때) 
-  ``` $ git clone <원격저장소주소>
+  ```$ git clone <원격저장소주소>```
   
 
   

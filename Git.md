@@ -4,7 +4,7 @@
 
 # Repository & Commit 
   1. Repository</br>
-    - 버전별 프로젝트 모습을 나타낸다.
+    - 버전별 프로젝트 모습을 나타낸다.</br>
     - 커밋이 저장되는 곳
   2. Commit</br>
     - 하나의 버젼으로 남기는 동작
@@ -36,12 +36,16 @@
   > git remote add origin Github_Repository_Url </br>
     `origin`: 최초로 remote 할때 origin이라는 이름을 쓰는것이 관례
   
-  1. Git Push </br>
+  * Git Push </br>
   ```$ git push <원격저장소이름> <브랜치이름>```
-  2. Git Pull </br>
+  * Git Pull </br>
   ```$ git pull <원격저장소이름> <브랜치이름>```
-  3. Git Clone(상대방 원격저장소를 받아보고 싶을때) </br>
+  * Git Clone(상대방 원격저장소를 받아보고 싶을때) </br>
   ```$ git clone <원격저장소주소>```
+  * Remote 
+  ```$ git remote -v : 현재 연결되어 있는 원격저장소를 확인
+  $ git remote remove <name> 옵션을 통해서 연결되어 있는 저장소 연결을 끊을 수 있음
+  $ git remote add <name> <url> 옵션으로 다시 연결가능함```
   
-
   
+# Git Branch

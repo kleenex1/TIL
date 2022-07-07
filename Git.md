@@ -3,10 +3,10 @@
   2. 협업 관리 
 
 # Repository & Commit 
-  1. Repository
+  1. Repository</br>
     - 버전별 프로젝트 모습을 나타낸다.
     - 커밋이 저장되는 곳
-  2. Commit
+  2. Commit</br>
     - 하나의 버젼으로 남기는 동작
 
 # Working directory / Staging area / Repository

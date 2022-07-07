@@ -38,19 +38,11 @@
   > git remote add origin Github_Repository_Url </br>
     `origin`: 최초로 remote 할때 origin이라는 이름을 쓰는것이 관례
   
-<<<<<<< HEAD
-  1. Git Push </br>
-  ```$ git push <원격저장소이름> <브랜치이름>```
-  2. Git Pull </br>
-  ```$ git pull <원격저장소이름> <브랜치이름>```
-  3. Git Clone(상대방 원격저장소를 받아보고 싶을때) </br>
-=======
   * Git Push </br>
   ```$ git push <원격저장소이름> <브랜치이름>```
   * Git Pull </br>
   ```$ git pull <원격저장소이름> <브랜치이름>```
   * Git Clone(상대방 원격저장소를 받아보고 싶을때) </br>
->>>>>>> 5247879fe4bbd8e9db6be82eb187f95b04e8049c
   ```$ git clone <원격저장소주소>```
   * Remote </br>
   ```$ git remote -v``` : 현재 연결되어 있는 원격저장소를 확인 </br>

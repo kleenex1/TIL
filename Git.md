@@ -15,11 +15,11 @@
   - repository : commit을 하면 저장되는 곳(버전)
 
 # 기본 명령어
-  1. $ git `add` <file> : Staging area에 올리는 명령어
-  2. $ git `commit` -m '<커밋메시지>' : 간단하게 변경사항을 나타낼 수 있도록 명확하게 작성
-  3. $ git `status` : staging area에 있는지 유무 및 working dir의 파일 tracking 유무 확인 가능
-  4. $ git `log` : 버전 확인 기능 
-    - `log --oneline` : log 한줄씩 간단하게 확인 가능
+  1. `$ git add` <file> : Staging area에 올리는 명령어
+  2. `$ git commit` -m '<커밋메시지>' : 간단하게 변경사항을 나타낼 수 있도록 명확하게 작성
+  3. `$ git status` : staging area에 있는지 유무 및 working dir의 파일 tracking 유무 확인 가능
+  4. `$ git log` : 버전 확인 기능 </br>
+    - `log --oneline` : log 한줄씩 간단하게 확인 가능 </br>
     - `log --pretty oneline` : 커밋된 아이디 전체 확인이 가능 & log 한줄씩
 
 # Git 설정 파일(config)

@@ -24,12 +24,12 @@
 
 # Git 설정 파일(config)
   - 사용자 정보 
-    * git config --global user.name "*username*"
-    * git config --global user.email "*user@email.com*"
+    * $ git config --global user.name "*username*"
+    * $ git config --global user.email "*user@email.com*"
   - 설정 확인
-    * git config -list
-    * git config --global --list
-    * git config user.name
+    * $ git config -list
+    * $ git config --global --list
+    * $ git config user.name
 
 # Git Push & Pull 
   > 로컬에서 Github라는 원격 저장소에 보내려면 remote 설정을 먼저 해줘야 한다.

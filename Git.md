@@ -14,6 +14,8 @@
   - `Staging area` : git add를 한 파일들이 존재하는 영역(index)
   - `repository` : commit을 하면 저장되는 곳(버전)
 
+---
+
 # 기본 명령어
   1. `$ git add` <file> : Staging area에 올리는 명령어
   2. `$ git commit` -m '<커밋메시지>' : 간단하게 변경사항을 나타낼 수 있도록 명확하게 작성

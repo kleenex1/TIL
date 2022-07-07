@@ -43,10 +43,9 @@
   * Git Clone(상대방 원격저장소를 받아보고 싶을때) </br>
   ```$ git clone <원격저장소주소>```
   * Remote 
-  ```
-  $ git remote -v : 현재 연결되어 있는 원격저장소를 확인
-  $ git remote remove <name> 옵션을 통해서 연결되어 있는 저장소 연결을 끊을 수 있음
-  $ git remote add <name> <url> 옵션으로 다시 연결가능함
-  ```
+  ```$ git remote -v``` : 현재 연결되어 있는 원격저장소를 확인
+  ```$ git remote remove <name>```: 옵션을 통해서 연결되어 있는 저장소 연결을 끊을 수 있음
+  ```$ git remote add <name> <url>```: 옵션으로 다시 연결가능함
+  
   
 # Git Branch

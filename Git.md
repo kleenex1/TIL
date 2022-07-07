@@ -48,6 +48,16 @@
   ```$ git remote -v``` : 현재 연결되어 있는 원격저장소를 확인 </br>
   ```$ git remote remove <name>```: 옵션을 통해서 연결되어 있는 저장소 연결을 끊을 수 있음 </br>
   ```$ git remote add <name> <url>```: 옵션으로 다시 연결가능함 </br>
-  
-  
+  * Ignore </br>
+    [Python.gitignore 링크](https://github.com/github/gitignore/blob/main/Python.gitignore)
+    * 이미 push된 file에 대해 git ignore 적용하기 
+    ```
+    $ git rm -r --cached .
+    $ git add .
+    $ git commit -m "Apply .gitignore"
+    $ git push origin master
+    ```
+
 # Git Branch
+
+

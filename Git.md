@@ -20,7 +20,7 @@
   3. `$ git status` : staging area에 있는지 유무 및 working dir의 파일 tracking 유무 확인 가능
   4. `$ git log` : 버전 확인 기능 </br>
     - `log --oneline` : log 한줄씩 간단하게 확인 가능 </br>
-    - `log --pretty oneline` : 커밋된 아이디 전체 확인이 가능 & log 한줄씩
+    - `log --pretty --oneline` : 커밋된 아이디 전체 확인이 가능 & log 한줄씩
 
 # Git 설정 파일(config)
   - 사용자 정보 

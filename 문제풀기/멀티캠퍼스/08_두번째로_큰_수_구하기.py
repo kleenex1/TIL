@@ -12,8 +12,21 @@ while max in numbers:
     numbers.remove(max)
 
 max2 = numbers[0]
+
 for num in numbers:
     if max2 <= num:
         max2 = num
         
 print(max2)
+
+# numbers = [0, 20, 100, 40]
+# max_number = numbers[0]
+# second_number = numbers[0]
+
+# for n in numbers:
+#     if max_number < n:
+#         second_number = max_number
+#         max_number = n
+#     elif second_number < n and n < max_number:
+#         second_number = n
+# print(second_number)

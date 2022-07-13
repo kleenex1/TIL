@@ -12,3 +12,18 @@ def reverse_word(word):
 
 a = reverse_word('apple')
 print(a)
+
+# 해설
+# word = 'apple'
+# result = ''
+# for char in word :
+#     result = char + result
+# print(result)
+# or print(word[::-1])
+# print(''.join(reversed(word)))
+
+# Index 조작
+# word ='apple'
+# for i in range(len(word)):
+#   print(word[len(word)-i-1], end'')
+# 

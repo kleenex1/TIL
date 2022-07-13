@@ -14,3 +14,11 @@ def del_a(word):
         
 a = del_a('appleafaadfaeft4ttfafaaa')   
 print(a)
+
+# 해설
+# word = 'apple'
+# result = ''
+# for char in word :
+#     if char != 'a':
+#         result += char
+# print(result)

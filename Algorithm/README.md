@@ -1,3 +1,3 @@
 - [알고리즘_정의](./%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EC%A0%95%EC%9D%98.md)
-- [알고리즘_기본](./%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B8%B0%EB%B3%B8md)
+- [알고리즘_기초](./%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B8%B0%EC%B4%88.md)
 - [변수와배열](./%EB%B3%80%EC%88%98%EC%99%80%EB%B0%B0%EC%97%B4.md)

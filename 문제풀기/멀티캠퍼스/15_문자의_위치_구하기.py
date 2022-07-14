@@ -14,7 +14,7 @@ for idx in range(len(word)):
 else:
     print(-1)
 
-# ?? 이건 어떤 풀이 ??    
+# ?? 이건 어떤 풀이??    
 is_a = False
 for idx in range(len(word)):
     if word[idx] == 'a':

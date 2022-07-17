@@ -3,4 +3,5 @@
 3.[활용도가 높은 자료구조: 트리 자료구조](./%ED%8A%B8%EB%A6%AC%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)</br>
 4.[특수한 목적의 자료구조: 바이너리 인덱스 트리](./%EB%B0%94%EC%9D%B4%EB%84%88%EB%A6%AC%EC%9D%B8%EB%8D%B1%EC%8A%A4%ED%8A%B8%EB%A6%AC.md)</br>
 
-5.[선택정렬과 삽입정렬](./%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC%EA%B3%BC%20%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC.md)
+5.[선택정렬과 삽입정렬](./%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC%EA%B3%BC%20%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC.md)</br>
+6.[퀵정렬과 계수정렬](./%ED%80%B5%20%EC%A0%95%EB%A0%AC%EA%B3%BC%20%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC.md)</br>

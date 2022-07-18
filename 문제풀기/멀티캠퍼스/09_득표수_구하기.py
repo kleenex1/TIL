@@ -16,9 +16,3 @@ for student in students:
 
 print(counter['이영희'])
 
-result = 0
-for student in students:
-    if student == '이영희':
-        result += 1
-
-print(result)

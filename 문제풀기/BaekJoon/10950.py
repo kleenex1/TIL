@@ -1,5 +1,7 @@
+import sys
+
 T = int(input())
 
 for test in range(T):
-    a, b = map(int, input().split())
-    print(a + b)
+    a, b = map(int, sys.stdin.readline().split())
+    print(a+b)

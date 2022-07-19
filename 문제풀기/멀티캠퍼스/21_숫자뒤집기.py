@@ -3,7 +3,7 @@
 
 1234
 4321
-# 문자열이면.. reverse / for문 거꾸로..
+# 문자열이면.. reverse / for문 거꾸로../[::-1]
 # number = 1234
 # result = ''
 # for num in number:

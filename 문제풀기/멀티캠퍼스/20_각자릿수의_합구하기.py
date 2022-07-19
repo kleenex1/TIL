@@ -21,3 +21,21 @@ def f(n):
     return list
 a = f(12345)
 print(sum(a))
+
+
+## 강사님 코드
+
+number = 123
+result = 0
+while number:
+    result += number%10
+    number //= 10
+
+print(result)
+
+number = 123
+result = 0
+while number:
+    number, remainder = divmod(number, 10)
+    result += remainder
+print(result)

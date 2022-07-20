@@ -20,7 +20,7 @@ for test_case in range(1, T+1):
 # 다른 사람 코드..
 
 T = int(input())
-for i in range(1, i+1):
+for i in range(1, T+1):
     P, Q, R, S, W = map(int, input().split())
     a = P * W
     b = Q if W <= R else Q + (W-R)*S

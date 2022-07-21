@@ -134,9 +134,42 @@
 #     return hansu_count
 # print(hansu(1000))
 
-n = int(input())
-num = input()
-total = 0
-for i in range(n):
-    total += int(i)
-print(total)
+
+# word = 'baekjoon'
+
+# for i in range(97, 122 +1):
+#     if chr(i) in word:
+#         print(word.find(chr(i)), end=' ')
+#     else:
+#         print(-1, end= ' ')
+
+# T = int(input())
+
+# for test_case in range(T):
+#     a, b = map(str, input().split())
+#     for chr in b:
+#         print(chr*int(a), end='')
+#     print()
+
+
+
+"""
+word = input().upper()
+word_list = list(set(word))
+
+cnt = []
+for i in word_list:
+    count = word.count # 메서드를 호출하지 않고 변수에 넣어둔다.. 팁
+    cnt.append(count(i))
+
+if cnt.count(max(cnt)) > 1:
+    print("?")
+
+else:
+    print(word_list[(cnt.index(max(cnt)))]) # 리스트와 인덱스.. 팁
+"""
+
+
+a, b = map(str, input().split())
+
+print(max(int(a[::-1]), int(b[::-1])))

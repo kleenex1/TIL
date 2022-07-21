@@ -67,9 +67,76 @@
 # for ans in answer:
 #     print(ans)
 
-left = set()
-for i in range(10):
-    a = int(input())
-    left.add(a % 42)
-print(len(left))
+# left = set()
+# for i in range(10):
+#     a = int(input())
+#     left.add(a % 42)
+# print(len(left))
 
+# n = int(input())
+# score = list(map(int, input().split()))
+# total = 0
+# for i in score:
+#     if i == max(score):
+#         total += 100
+#     else:
+#         total += (i / max(score)) * 100
+
+# print(total/n)
+
+# n = int(input())
+# for i in range(n):
+#     quiz = input()
+#     point = 0
+#     total = 0
+#     for i in range(len(quiz)):
+#         if quiz[i] == 'O':
+#             point += 1
+#             total += point
+#         else:
+#             point = 0
+#     print(total)
+
+# n = int(input())
+# for i in range(n):
+#     student = list(map(int, input().split()))
+#     avg = sum(student[1:]) / (len(student)-1)
+#     point_student = student[1:]
+#     count = 0
+#     for point in point_student:
+#         if avg < point:
+#             count += 1
+#     print("{:.3f}%".format((count/student[0])*100))
+
+# natural_num = set(range(1, 10001))
+# generated_num = set()
+
+# for i in range(1, 10001):
+#     for j in str(i):
+#         i += int(j)
+#     generated_num.add(i)
+
+# self_num = sorted(natural_num - generated_num)
+# for i in self_num:
+#     print(i)
+
+
+
+# def hansu(n):
+#     hansu_count = 0
+#     for i in range(1, n + 1):
+#         num = list(map(int, str(i)))
+#         if i < 100:
+#             hansu_count += 1
+#         elif num[0] - num[1] == num[1] - num[2]:
+#             hansu_count += 1
+
+#     return hansu_count
+# print(hansu(1000))
+
+n = int(input())
+num = input()
+total = 0
+for i in range(n):
+    total += int(i)
+print(total)

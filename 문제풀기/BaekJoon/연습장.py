@@ -170,6 +170,127 @@ else:
 """
 
 
-a, b = map(str, input().split())
+# a, b = map(str, input().split())
 
-print(max(int(a[::-1]), int(b[::-1])))
+# print(max(int(a[::-1]), int(b[::-1])))
+
+
+# dials = [
+#     'ABC',
+#     'DEF',
+#     'GHI',
+#     'JKL',
+#     'MNO',
+#     'PQRS',
+#     'TUV',
+#     'WXYZ'
+# ]
+# second = 0
+# word = input()
+# for char in word:
+#     for dial in dials:
+#         if char in dial:
+#            second += dials.index(dial) + 3
+# print(second)
+
+
+# n = int(input())
+
+# for i in range(n):
+#     if i % 2 == 0:
+#         print("* " * n)
+#     else:
+#         print(" *" * n)
+
+# 하나씩 불러내서 다시 연결하면서 해당 단어가 크로아티아 알파벳이면 +1 아니면 그냥 +1
+
+'''
+word = input()
+croatia = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
+
+for char in croatia:
+    word = word.replace(char, '*')   # replace는 비파괴적 함수..
+print(len(word))
+'''
+
+
+
+# T = int(input())
+
+# for test_case in range(1, T+1):
+#     date = input()
+#     even_month =  ['02', '04', '06', '08', '10', '12']
+#     odd_month = ['01', '03', '05', '07', '09', '11']
+#     month_list = even_month + odd_month
+#     month_date = list(range(1,32))
+#     even_month = list(map(str, month_date[:31]))
+#     odd_month = list(map(str, month_date[:30]))
+#     feburary = list(map(str, month_date[:28]))
+#     if date[4:6] not in month_list:
+#         print(f'#{test_case} -1')
+        
+#     elif date[4:6] == '02' and date[6:] not in feburary:
+#         print(f'#{test_case} -1')
+        
+#     elif date[4:6] in even_month and date[6:] not in even_month:
+#         print(f'#{test_case} -1')
+        
+#     elif date[4:6] in odd_month and date[6:] not in odd_month:
+#         print(f'#{test_case} -1')
+        
+#     else:
+#         print(f'#{test_case} {date[:4]}/{date[4:6]}/{date[6:]}')
+
+# word = input()
+
+# print(word.upper()) # 문자만 알아서 되는듯..
+
+# https://www.acmicpc.net/problem/2577
+
+
+
+# T = int(input())
+# total = 0
+# for _ in range(T):
+#     word = input()
+#     for i in range(len(word)):   
+#         if i != len(word)-1:
+#             if word[i] == word[i+1]:
+#                 pass
+#             elif word[i] in word[i+1:]:
+#                 break
+#     #   total += 1 
+#         else:
+#             total += 1    
+# print(total)
+
+# a, b, c= map(int, input().split())
+# if b >= c:
+#     print(-1)
+# else:
+#     print((a // (c- b)) +1)
+
+
+# A, B = map(int, input().split())
+
+# print("A" if A>B else "B")
+
+
+# [1/1] [1/2, 2/1] [3/1, 2/2, 1/3] [1/4, 2/3, 3/2, 4/1]
+
+# X = int(input())
+
+# line = 1
+# while X > line:
+#     X -= line 
+#     line += 1
+
+# if line % 2 == 0:
+#     a = X
+#     b = line - X + 1
+# else:
+#     a = line - X + 1
+#     b = X
+# print(a, '/', b, sep='')
+
+

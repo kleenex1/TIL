@@ -1,4 +1,4 @@
-word = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+word = input()
 result = ''
 for i in range(len(word)):
     result = result + str(ord(word[i])-64) + " "

@@ -1,3 +1,5 @@
+# 함수를 활용하는방법을 배우자
+
 def oven_clock(hour, minute, cooking_time):
     minute += cooking_time
     extra_hour = 0
@@ -18,3 +20,4 @@ if __name__ == "__main__":
     finish_time = oven_clock(hour=hour, minute=minute, 
                              cooking_time=cooking_time)
     print(finish_time)
+

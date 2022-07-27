@@ -294,3 +294,62 @@ print(len(word))
 # print(a, '/', b, sep='')
 
 
+# a, b, v = map(int, input().split())
+# k = (v - b)/(a - b)
+# print(int(k) if k == int(k) else int(k) + 1 )
+
+# n =list(map(str, input()))
+# left = 0
+# right = 0
+        
+# for i in range(len(n)):
+#     if n[i] == '0':
+#         left = n[:i].count("@")
+#         right = n[i:].count("@")
+
+# print(left, right)
+
+
+# word = list(map(str, 'CAMBRIDGE'))
+
+
+# input_ = input()
+
+# for char in input_:
+#     if char in word:
+#         input_ = input_.replace(char,"")
+
+# print(input_)
+
+# N = int(input())
+
+# for i in range(N):
+#     n, word = input().split()
+#     word_list = list(map(str, word))
+#     del word_list[int(n)-1]
+#     print(''.join(word_list))
+
+
+# jangjo = list(map(int, input().split()))
+
+
+# if jangjo == sorted(jangjo):
+#     print("ascending")
+# elif jangjo == sorted(jangjo, reverse = True):
+#     print("descending")
+# else:
+#     print("mixed")
+
+# all_num = set((range(1,10000+1)))
+# not_self_num = set()
+
+# for i in range(1,10000 + 1):
+#     for j in str(i):
+#         i += int(j)
+#     not_self_num.add(i)
+
+# self_num = sorted(all_num - not_self_num)
+# for i in self_num:
+#     print(i)
+
+# set는 교집합 & 합집합 + 차집합 - 가능.. 

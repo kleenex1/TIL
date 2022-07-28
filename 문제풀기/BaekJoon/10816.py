@@ -28,6 +28,6 @@ for n in card:
 
 for m in m_card:
     if m in dict:
-        print(' '.join(str(dict[m])), end=' ')
+        print(str(dict[m]), end=' ')
     else:
         print('0', end=' ')

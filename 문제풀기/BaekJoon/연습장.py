@@ -371,3 +371,7 @@ print(len(word))
 #     print(i)
 
 # set는 교집합 & 합집합 + 차집합 - 가능.. 
+
+
+
+

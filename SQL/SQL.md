@@ -141,3 +141,13 @@ CREATE TABLE students(
 - SELECT DISTINCT
   - 조회 결과에서 중복 행을 제거
   - DISTINCT 절은 SELECT 키워드 바로 뒤에 작성해야 함
+
+- UPDATE
+  ```sql
+  UPDATE classmates SET address='서울' WHERE rowid=5;
+  ```
+
+- DELETE
+  ```sql
+  DELETE FROM classmates WHERE rowid=5;
+  ```

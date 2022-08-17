@@ -374,15 +374,22 @@ print(len(word))
 
 
 
-from typing import List # 타입힌트 List 
-class Solution:
-    def reverseString(self, s: List[str]) -> None:
-        left, right = 0, len(s) - 1
-        while left < right:
-            s[left], s[right] = s[right], s[left]
-            left += 1
-            right -= 1
-        return s
+# from typing import List # 타입힌트 List 
+# class Solution:
+#     def reverseString(self, s: List[str]) -> None:
+#         left, right = 0, len(s) - 1
+#         while left < right:
+#             s[left], s[right] = s[right], s[left]
+#             left += 1
+#             right -= 1
+#         return s
 
-s = ["h", "e", "l", "l", "o"]
-print(Solution().reverseString(s))
+# s = ["h", "e", "l", "l", "o"]
+# print(Solution().reverseString(s))
+
+
+print(ord('유')) 
+print(ord('이'))
+print(ord('구'))
+print(ord('장'))
+print(ord('김'))

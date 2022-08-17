@@ -30,7 +30,6 @@ weight INTEGER NOT NULL,
 waist REAL NOT NULL,   
 va_left REAL NOT NULL, 
 va_right REAL NOT NULL,
-
 blood_pressure INTEGER 
 NOT NULL,
 smoking INTEGER NOT NULL,

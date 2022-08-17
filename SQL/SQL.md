@@ -151,3 +151,5 @@ CREATE TABLE students(
   ```sql
   DELETE FROM classmates WHERE rowid=5;
   ```
+
+

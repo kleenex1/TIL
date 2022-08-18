@@ -388,8 +388,3 @@ print(len(word))
 # print(Solution().reverseString(s))
 
 
-print(ord('유')) 
-print(ord('이'))
-print(ord('구'))
-print(ord('장'))
-print(ord('김'))

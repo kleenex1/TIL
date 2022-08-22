@@ -388,3 +388,23 @@ print(len(word))
 # print(Solution().reverseString(s))
 
 
+class Scoop():
+    def __init__(self, flavor):
+        self.flavor = flavor
+
+class Bowl():
+    def __init__(self):
+        self.scoops = []
+    def add_scoops(self, *new_scoops):
+        for one_scoop in new_scoops:
+            self.scoops.append(one_scoop)
+    def __repr__(self):
+        return '\n'.join(s.flavor for s in self.scoops)
+
+s1 = Scoop('Chocolate')
+s2 = Scoop('Vanilla')
+s3 = Scoop('Persimmon')
+
+b = Bowl()
+b.add_scoops(s1, s2, s3)
+print(b)

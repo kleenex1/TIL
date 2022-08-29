@@ -121,6 +121,19 @@ Apple, Google, Microsoft, Mozilla(firefox)  의 기업들이 앞장서서 웹 �
   기본 기본 기본 <br>우아아아
 </p>
 ```
+# alt는 왜 쓸까?
+
+Alternative Text
+```html
+<img src="images/dinosaur.jpg"
+      alt ="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth">
+```
+* alt는 왜 굳이 사용되거나 필요한걸까?
+1) 사용자가 시각장애를 가진 경우 screen reader가 그 내용을 읽어 줄 수 있다.
+2) 텍스트만 지원되는 브라우저를 사용하는 사용자들이 있기 때문에 alt 정보가 유용할 수 있다.
+3) 텍스트를 제공하여 검색엔진이 이를 활용할 수 있다. 
+4) 제한된 지역에서 고의적으로 이미지를 꺼놓은 경우 alt 정보가 유용할 수 있다.
+
 
 # CSS 
 * CSS : Cascading(위에서 아래로 흐르는/상속,종속) Style Sheets

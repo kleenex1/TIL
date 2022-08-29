@@ -104,18 +104,18 @@ Apple, Google, Microsoft, Mozilla(firefox)  의 기업들이 앞장서서 웹 �
 ```html
 <img src ="..." alt ="보노보노"> : alt 는 설명해주는 기능
 <!--ol-->
-  <ol>
+<ol>
   <li>순서 있음</li>
-  </ol>
+</ol>
 <!--ul-->
-  <ul>
+<ul>
   <li>순서 없음</li>
-  </ul>
+</ul>
 <!--pre-->
-  <pre>
+<pre>
   기본 기본 기본
   우아아아아
-  </pre>
+</pre>
 <!--p태그-->
 <p>
   기본 기본 기본 <br>우아아아

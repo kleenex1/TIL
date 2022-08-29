@@ -181,8 +181,8 @@ h1 {
 ```HTML
 <style>
 	h1 {
-		color : red;
-		font-size: 25px
+    color : red;
+	  font-size: 25px
 	}
 	.title-brown {
 		color : brown;

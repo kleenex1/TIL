@@ -45,8 +45,8 @@ Apple, Google, Microsoft, Mozilla(firefox)  의 기업들이 앞장서서 웹 �
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
 </head>
 <body>
 
@@ -73,7 +73,7 @@ Apple, Google, Microsoft, Mozilla(firefox)  의 기업들이 앞장서서 웹 �
 		* 오류를 반환하는 것이 아닌 그냥 레이아웃이 깨진 상태로 출력됨.
 
 # 속성(attribute)
-* \<a href(속성명) ="https://google.com"(속성값)>\</a>
+* <a href(속성명) ="https://google.com"(속성값)></a>
 * 속성을 통해 태그의 부가적인 정보 설정
 * 요소는 속성을 가질 수 있고 경로나 크기와 같은 추가적인 정보 제공
 * 요소의 시작 태그에작성하며 보통 이름과 값이 하나의 쌍으로 존재
@@ -104,21 +104,21 @@ Apple, Google, Microsoft, Mozilla(firefox)  의 기업들이 앞장서서 웹 �
 ```html
 <img src ="..." alt ="보노보노"> : alt 는 설명해주는 기능
 <!--ol-->
-<ol>
-	<li>순서 있음</li>
-</ol>
+  <ol>
+  <li>순서 있음</li>
+  </ol>
 <!--ul-->
-<ul>
-	<li>순서 없음</li>
-</ul>
+  <ul>
+  <li>순서 없음</li>
+  </ul>
 <!--pre-->
-<pre>
-	기본 기본 기본
-	우아아아아
-</pre>
+  <pre>
+  기본 기본 기본
+  우아아아아
+  </pre>
 <!--p태그-->
 <p>
-	기본 기본 기본 <br>우아아아
+  기본 기본 기본 <br>우아아아
 </p>
 ```
 
@@ -129,41 +129,41 @@ Apple, Google, Microsoft, Mozilla(firefox)  의 기업들이 앞장서서 웹 �
 * *주로 활용하는 속성 위주로 찾아서 쓰면서 기억하자*
 * 
 ```css
-h1 {
-	color: blue;
-	font-size: 15px;
-}
+  h1 {
+  color: blue;
+  font-size: 15px;
+  }
 ```
 
 **1. 인라인 (사용하지 않음, 비효율적)**
 ```HTML
 <body>
-	<h1 style ="color: blue; font-size: 100px;">Hello</h1>
+  <h1 style ="color: blue; font-size: 100px;">Hello</h1>
 </body>
 ```
 **2. 내부참조**
 ```HTML
 <head>
-	<title>Document</title>
-	<style>
-		h1 {
-			color: blue;
-			font-size: 15px;
-		}
-	</style>
+  <title>Document</title>
+  <style>
+    h1 {
+      color: blue;
+      font-size: 15px;
+    }
+  </style>
 ```
 **3. 외부참조(파일을 따로 만듦)**
 ```CSS
 mystyle.css
-h1 {
-	color: blue;
-	font-size: 15px;
-}
+  h1 {
+  color: blue;
+  font-size: 15px;
+  }
 ```
 ```HTML
 <head>
-	<title>Document</title>
-	<link rel="stylesheet" href="mystle.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="mystle.css">
 </head>
 ```
 # CSS 기초 선택자
@@ -180,24 +180,24 @@ h1 {
 	* id는 잘 활용하지 않고, JS로 개발할 때 보통 활용
 ```HTML
 <style>
-	h1 {
+  h1 {
     color : red;
-	  font-size: 25px
-	}
-	.title-brown {
-		color : brown;
-	}
+    font-size: 25px
+  }
+  .title-brown {
+    color : brown;
+  }
   #title-yellow {
-		color: yellow
-	}
+    color: yellow
+  }
 </style>
 <body>
-	<!--전부 red로 나옴-->
-	<h1>태그선택자1</h1>
-	<h1>태그선택자2</h1>
-	<!--brown으로 나옴-->
-	<h3 class="title-brown">클래스선택자1</h3>
+  <!--전부 red로 나옴-->
+  <h1>태그선택자1</h1>
+  <h1>태그선택자2</h1>
+  <!--brown으로 나옴-->
+  <h3 class="title-brown">클래스선택자1</h3>
   <!--yellow로 나옴-->
-	<h3 id="title-yellow">아이디선택자<h3>
+  <h3 id="title-yellow">아이디선택자<h3>
 </body>
 ```

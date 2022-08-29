@@ -214,3 +214,51 @@ mystyle.css
   <h3 id="title-yellow">아이디선택자<h3>
 </body>
 ```
+# HTML 코드 확인 할때 유용한 웹사이트
+* https://jsfiddle.net
+* 실행 한 뒤 Update를 하면 해당 주소가 계속 남아 있음(링크로 활용가능) 
+
+# HTML COLOR CODES
+* htmlcolorcodes.com
+* 글자색 조정할때 rgb값 & HEX값(16진법) 두가지 방식으로 쓸 수 있음
+```html
+h1 {
+  color: rgb(97, 249, 107)
+  color: #61F96B
+}
+```
+
+# 텍스트 스타일링
+```html
+p {
+  text-decoration: line-through; (overline, underline)
+  text-weight: 100,200,300..900;(글꼴에 따라 지원되는 글자 두께가 다름 normal : 400과 똑같고 bold : 700과 같음 *100단위)
+}
+a {
+  text-decoration: none; (링크 밑줄없애는 기능)
+}
+```
+# 웹 폰트 사용하기
+* fonts.google.com 
+* fonts.google.com/earlyaccess
+* 링크를 복사하고 font-family를 사용하면됨.
+```html
+<link href="https://fonts.google..~" rel="stylesheet">
+#text-style {
+  font-family: "Times New Roman", Arial, sans-serif; (첫번째 글꼴을 쓰도록 하고 없으면 Arial, 없으면 sans-serif)
+}
+```
+# 폰트 파일 사용하기
+```html
+@font-face {
+  src: url("../fonts/file이름.otf");
+  font-family: "이름지어주기";
+}
+p {
+  font-family: "이름지어주기";
+}
+```
+
+# span 태그
+* <div> 는 새로운 줄에 넣어버림
+* <span> 는 영향이 없음

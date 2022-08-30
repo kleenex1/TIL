@@ -125,7 +125,7 @@ __*Tip : MDN 문서를 참조하면 더 많은 내용이 있다.*__
 # Box-sizing
 * 기본적으로 모든 요소의 box-sizing은 context-box
 	* Padding을 제외한 순수 contents 영역만을 box로 지정
-* 다만 우리가 일반적으로 영역을 볼 때는 border까지의 너비를 100px 보는 것을 원함? --> 그 경우 obx-sizing을 border-box로 설정
+* 다만 우리가 일반적으로 영역을 볼 때는 border까지의 너비를 100px 보는 것을 원함? --> 그 경우 box-sizing을 border-box로 설정
 
 # 대표적으로 활용되는 Display
 * display : block

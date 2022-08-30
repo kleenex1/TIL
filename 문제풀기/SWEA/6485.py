@@ -22,6 +22,6 @@ for tc in range(1, t+1):
     for i in range(P):
         answer.append(bus[int(input())])
     
-    print(f'{tc}', *answer)
+    print(f'#{tc}', *answer)
 
      

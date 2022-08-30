@@ -1,0 +1,30 @@
+/* 아래에 CSS를 작성해주세요. */
+.card {
+  width: 300px;
+}
+
+.chair {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.brand {
+  color: rgba(0,0,0,0.5);
+  font-weight: 500;
+}
+
+.discount {
+  color : skyblue;
+  font-size : 2rem;
+  font-weight : 900;
+}
+
+.price {
+  font-size : 2rem;
+  font-weight : 900;
+}
+
+.review {
+  color: rgba(0,0,0,0.5);
+  font-weight : 900; 
+}

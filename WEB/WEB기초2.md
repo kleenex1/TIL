@@ -102,6 +102,8 @@ p { color: hsla(120, 100% 0.5);}
 * 위에서부터 아래로, 왼쪽에서 오른쪽으로 쌓인다.(좌측상단배치)
 	* CSS 원칙 1 : inline Direction(한줄배치) & Block Direction (Normal Flow)
 	* CSS 원칙 2: display에 따라 크기와 배치가 달라진다.
+  * CSS 원칙 3: position으로 위치의 기준을 변경
+		* relative, absolute, fixed, sticky
 
 * Margin : 테두리 바깥의 외부 여백 (배경색 지정 못함)
 * Border : 테두리 영역

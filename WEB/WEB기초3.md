@@ -11,7 +11,7 @@
 	1. relative : 상대 위치
 		* 자기 자신의 static 위치를 기준으로 이동(*normal flow유지*)
 		* 레이아웃에서 요소가 차지하는 공간은 static일 때와 같음(normal position 대비 offset)
-		* (**요소를 일반적인 문서의 흐름에 따라 배치합니다 요소 자기 자신인 정위치 static 일때 기준으로 배치됨**)
+		* (**요소를 일반적인 문서의 흐름에 따라 배치합니다 요소 자기 자신인 정위치 static 일때 기준으로 배치됨**)<br>
 	![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122432.png)
 
 	2. absolute : 절대 위치
@@ -58,25 +58,25 @@
 
 * 배치 설정
 	* flex-direction
-		* row 
+		* row<br>
       ![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122513.png)
-		* row-reverse 
+		* row-reverse <br>
       ![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122524.png)
-		* column
+		* column<br>
 		  ![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122534.png)
-		* column-reverse
+		* column-reverse<br>
 		  ![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122544.png)
 	* flex-wrap
-		* wrap 
+		* wrap<br>
       ![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122552.png)		
-    * nowrap: 기본값 
+    * nowrap: 기본값<br> 
 		  ![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122600.png)
 
 
 * 공간 나누기
 	* justify-content (main axis)
 		* flex-start / flex-end / center / space-between / space-arount / space-evenly
-		예) space-between 
+		예) space-between<br> 
 		![스샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-08-31%20122609.png)
 	* align-content (cross axis) - 수업시간에 다루지않음
 

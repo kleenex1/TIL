@@ -1,8 +1,23 @@
 /* 아래에 CSS를 작성해주세요. */
-.center {
+\* {
+  box-sizing: border-box;
+}
+
+.title {
   text-align: center;
   margin: 0px;
 }
+
+.title h2 {
+  margin: 0px;
+}
+
+.title-first {
+  display: block;
+  font-size: 12px;
+  margin: 0px;
+}
+
 
 .picture {
   border-radius: 10px;
@@ -11,14 +26,14 @@
 
 .card-entire {
   width: 900px;
+  display: flex;
 }
 
 .card {
   width: 300px;
-  float: left;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-
 
 .guide-bold {
   font-size: 100%;

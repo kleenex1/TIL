@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* INDEX */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  min-width: 1280px;
+  color: #333333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  top: 0;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
+
+.navbar-menu li {
+  margin: 0 1rem;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+  color: goldenrod;
+}
+
+.banner {
+  height: 700px;
+  background-image: url("../assets/apparel.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bonmoon {
+  width: 1280px;
+  margin: 2rem auto;
+}
+
+.about {
+  display: flex;
+}
+
+.about img {
+  width : 500px;
+  border-radius: 1rem;
+}
+
+.about-text {
+  margin : 0 2rem;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.more h3 {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  margin: 3rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.item img {
+  width: 64px;
+  height: 64px;
+}
+
+.item-name {
+  margin: 1rem;
+}
+
+.item-info {
+  margin: 1rem;
+}
+
+.arrow {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* PRODUCTS */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+  padding : 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.product-info {
+  color: black;
+}
+

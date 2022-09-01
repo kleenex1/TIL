@@ -28,7 +28,7 @@
 	* 요소의 의미가 명확해지기 때문에 코드의 가독성을 높이고 유지보수를 쉽게 함
 	* 검색 엔진 최적화를 위해서 메타태그, 시맨틱 태그 등을 통한 마크업을 효과적으로 활용해야함
 
-# <수업시간 다룬 코드>
+# <수업시간 다룬 코드 : 참고> 
 ```HTML
 <!DOCTYPE html>
 <html lang="ko">
@@ -104,5 +104,41 @@ body {
 
 .nav-item {
   margin: 0 10px;
+}
+```
+
+# 폰트 사용하기
+
+## Link 사용하기
+* fonts.google.com 
+* fonts.google.com/earlyaccess
+* 링크를 복사하고 font-family를 사용하면됨.
+```html
+<link href="https://fonts.google..~" rel="stylesheet">
+#text-style {
+  font-family: "Times New Roman", Arial, sans-serif; (첫번째 글꼴을 쓰도록 하고 없으면 Arial, 없으면 sans-serif)
+}
+```
+## 폰트 파일 사용하기
+```CSS
+@font-face {
+  src: url("../fonts/file이름.otf");
+  font-family: "이름지어주기";
+}
+p {
+  font-family: "이름지어주기";
+}
+```
+## IMPORT 사용하기
+* @import url('');
+* @import " ";
+* CSS파일 맨 처음에 쓴다.
+```CSS
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+  height: 10000px;
+  font-family: 'Jua', sans-serif;
+  background-color: aqua;
 }
 ```

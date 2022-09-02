@@ -7,13 +7,13 @@ body {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
   padding-left: 1rem;
   padding-right: 1rem;
-  top: 0;
 }
 
 .navbar-menu {
@@ -72,7 +72,6 @@ body {
 
 .more h3 {
   font-size: 40px;
-  display: block;
   text-align: center;
   margin: 3rem;
 }

@@ -112,7 +112,6 @@ https://web.dev/learn/forms/
 </div>
 ```
 ![스크린샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-09-05%20102939.png)
-
 # Input 유형 - 기타
 * 다양한 종류의 input을 위한 picker를 제공
 	* color : color picker

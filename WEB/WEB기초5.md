@@ -147,5 +147,5 @@ https://web.dev/learn/forms/
 		* 3 - equl to **1rem** (16px)
 		* 4 - \*1.5
 		* 5 - \*3
-		* auto : auto (**블럭 요소 수평 중앙 정렬 가로 가운데 정렬** )
+		* auto : auto (**블럭 요소 수평 중앙 정렬 가로 가운데 정렬** )<br>
 ![스크린샷](./%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-09-05%20110441.png)

@@ -1,0 +1,34 @@
+.carousel-item {
+  height: 400px;
+  text-align: center;
+}
+
+.carousel-item.item1 {
+  background-image: url('images/1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item.item2 {
+  background-image: url('images/2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item.item3 {
+  background-image: url('images/3.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+}
+

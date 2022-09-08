@@ -407,8 +407,9 @@ print(len(word))
 
 # b = Bowl()
 # b.add_scoops(s1, s2, s3)
-# print(b)
+# # print(b)
 
-dic = {"1":5,"2":4,"3":3,"4":2,"5":1}
+# dic = {"1":5,"2":4,"3":3,"4":2,"5":1}
 
-print(sorted(dic.items(), key=lambda x: (x[1],x[0])))
+# print(sorted(dic.items(), key=lambda x: (x[1],x[0]))) 
+a

@@ -12,6 +12,6 @@
 * 트레이디(https://www.wanted.co.kr/wd/117396)
 
 # 2022-9월
-* 휴레이포지티브(https://www.wanted.co.kr/wd/77968)-헬스케어
+* 휴레이포지티브(https://www.wanted.co.kr/wd/77968) - 헬스케어
 * 헥슬란트(https://www.wanted.co.kr/wd/25495) - 블록체인 
 * 퀀팃(https://www.wanted.co.kr/wd/59594) - 핀테크

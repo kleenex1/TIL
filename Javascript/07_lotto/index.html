@@ -40,10 +40,10 @@
       // 공을 만들어서 =>  6개를 만들어서
       const numbers = _.sampleSize(_.range(1, 46), 6)
     
-    for (var b of numbers){
+    for (var num of numbers){
       const ball = document.createElement('div')
       ball.classList.add('ball')
-      ball.innerText = b
+      ball.innerText = num
       ball.style.backgroundColor = 'blue'
       // 컨테이너에 붙인다.
       ballContainer.appendChild(ball)

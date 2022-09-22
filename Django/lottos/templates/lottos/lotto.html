@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <hr>
+  <div style = "font-size: 50px; font-weight: bold;">
+    <span style ='font-size:30px;'>이번 주 로또 당첨 번호는 {{ prize.1 }} {{ prize.2 }}  {{ prize.3 }} {{ prize.4 }} {{ prize.5 }} 보너스 번호 {{ prize.6 }}</span>
+    <p>
+      {% for i in num %}
+        {% if i in prize %}
+        <span style="color: blue">{{ i }}</span>
+        {% else %} 
+        <span>{{ i }}</sapn>
+        {% endif %}
+      {% endfor %}
+    </p>
+    <p>
+      {% for i in num1 %}
+        {% if i in prize %} 
+        <span style="color: blue">{{ i }}</span>
+        {% else %} 
+        <span>{{ i }}</sapn>
+        {% endif %}
+      {% endfor %}
+    </p>
+    <p>
+      {% for i in num2 %}
+        {% if i in prize %} 
+        <span style="color: blue">{{ i }}</span>
+        {% else %} 
+        <span>{{ i }}</sapn>
+        {% endif %}
+      {% endfor %}
+    </p>
+    <p>
+      {% for i in num3 %}
+        {% if i in prize %} 
+        <span style="color: blue">{{ i }}</span>
+        {% else %} 
+        <span>{{ i }}</sapn>
+        {% endif %}
+      {% endfor %}
+    </p>
+    <p>
+      {% for i in num4 %}
+        {% if i in prize %} 
+        <span style="color: blue">{{ i }}</span>
+        {% else %} 
+        <span>{{ i }}</sapn>
+        {% endif %}
+      {% endfor %}
+    </p>
+   
+    
+  </div>
+</body>
+</html>

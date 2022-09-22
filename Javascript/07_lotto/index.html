@@ -40,30 +40,30 @@
       // 공을 만들어서 =>  6개를 만들어서
       const numbers = _.sampleSize(_.range(1, 46), 6)
     
-    for (var num of numbers){
-      const ball = document.createElement('div')
-      ball.classList.add('ball')
-      ball.innerText = num
-      ball.style.backgroundColor = 'blue'
-      // 컨테이너에 붙인다.
-      ballContainer.appendChild(ball)
-      // 컨테이너를 결과 영역에 붙인다. 
-      const result = document.querySelector('#result')
-      result.innerHTML = ''
-      result.appendChild(ballContainer)
-      if (b<='10') {
-        ball.style.backgroundColor ='yellow'
-      } else if (b<='20'){
-        ball.style.backgroundColor ='blue'
-      } else if (b<='30'){
-        ball.style.backgroundColor ='red'
-      } else if (b<='40'){
-        ball.style.backgroundColor ='gray'
-      } else {
-        ball.style.backgroundColor ='green'
+      for (var num of numbers){
+        const ball = document.createElement('div')
+        ball.classList.add('ball')
+        ball.innerText = num
+        ball.style.backgroundColor = 'blue'
+        // 컨테이너에 붙인다.
+        ballContainer.appendChild(ball)
+        // 컨테이너를 결과 영역에 붙인다. 
+        const result = document.querySelector('#result')
+        result.innerHTML = ''
+        result.appendChild(ballContainer)
+        if (b<='10') {
+          ball.style.backgroundColor ='yellow'
+        } else if (b<='20'){
+          ball.style.backgroundColor ='blue'
+        } else if (b<='30'){
+          ball.style.backgroundColor ='red'
+        } else if (b<='40'){
+          ball.style.backgroundColor ='gray'
+        } else {
+          ball.style.backgroundColor ='green'
+        }
       }
-    }
-  })
+    })
 
 
 

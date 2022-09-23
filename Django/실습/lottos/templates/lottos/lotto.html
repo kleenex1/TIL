@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <hr>
+  <div>
+    <div>
+    이번주 당첨 번호 
+    </div>
+    {% for winner in lotto_winner %}
+      {{ winner }} 
+    {% endfor %}
+    + {{ bonus }}
+    <br>
+    {% for lotto in lotto_list %}
+      {% for num in lotto.0 %}
+        {{ num }}
+      {% endfor %}
+      {{ lotto.1 }} 등
+      <br>
+    {% endfor %}
+  </div>
+</body>
+</html>

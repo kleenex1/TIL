@@ -14,6 +14,7 @@ def bfs(x,y,cnt):
     max_ = 0
     q = deque()
     q.append((x,y,cnt))
+    visited = [[0] * m for _ in range(n)]
     visited[x][y] = 1
     while q:
         x,y,c = q.popleft()
@@ -27,12 +28,11 @@ def bfs(x,y,cnt):
                 visited[nx][ny] = 1
     return max_
 
-max_ = 0
+result = 0
 
 for i in range(n):
     for j in range(m):
         if maps[i][j] == "L":
-            visited = [[0] * m for _ in range(n)]
-            max_ = max(max_,bfs(i,j,0))
+            result = max(result,bfs(i,j,0))
 
-print(max_)
+print(result)
